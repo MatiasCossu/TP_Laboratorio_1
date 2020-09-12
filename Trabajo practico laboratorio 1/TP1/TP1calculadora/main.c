@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Funciones.h"
 
 int main()
 {
-
     int opcion;
     int operadorA;
     int operadorB;
-
-
+    int suma;
+    int resta;
+    float division;
 
     printf("BIENVENIDO A CALCULADORA\n");
 
@@ -30,14 +31,15 @@ int main()
                 break;
 
             case 3:
-                printf("Operacion");
+                suma = SumaDeNumeros(operadorA,operadorB);
+                resta = RestaDeNumeros(operadorA,operadorB);
+                division = DivisionDeNumeros(operadorA,operadorB);
                 break;
             case 4:
-                printf("Respuestas");
+                printf("La Suma de  operador A y operador B es: %d\n", suma);
+                printf("La Resta de  operador A y operador B es: %d\n", resta);
+                printf("La Division de  operador A y operador B es: %f\n", division);
                 break;
         }
-
-
     }while(opcion !=5);
-
 }
