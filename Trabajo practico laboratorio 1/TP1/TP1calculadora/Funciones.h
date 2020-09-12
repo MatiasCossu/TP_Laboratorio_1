@@ -1,9 +1,11 @@
 
 
-int SumaDeNumeros(int, int);
+float SumaDeNumeros(float, float);
 
-int RestaDeNumeros(int, int);
+float RestaDeNumeros(float, float);
 
 float DivisionDeNumeros(float, float);
 
-int MultiplicacionDeNumeros(int, int);
+float MultiplicacionDeNumeros(float, float);
+
+float FactorialNumero(float);

@@ -1,12 +1,13 @@
-int SumaDeNumeros(int a, int b)
+#include "Funciones.h"
+float SumaDeNumeros(float a, float b)
 {
-    int suma=0;
+    float suma=0;
     suma = a + b;
     return suma;
 }
-int RestaDeNumeros(int a, int b)
+float RestaDeNumeros(float a, float b)
 {
-    int resta=0;
+    float resta=0;
     resta = a - b;
     return resta;
 }
@@ -25,9 +26,17 @@ float DivisionDeNumeros(float a, float b)
 
     return division;
 }
-int MultiplicacionDeNumeros(int a, int b)
+float MultiplicacionDeNumeros(float a, float b)
 {
-    int multiplicacion=0;
+    float multiplicacion=0;
     multiplicacion = a * b;
     return multiplicacion;
+}
+float FactorialNumero(float a)
+{
+    float factorial=0;
+
+
+
+    return factorial;
 }
