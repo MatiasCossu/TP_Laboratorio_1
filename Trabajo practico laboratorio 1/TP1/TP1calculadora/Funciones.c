@@ -13,6 +13,21 @@ int RestaDeNumeros(int a, int b)
 float DivisionDeNumeros(float a, float b)
 {
     float division = 0;
-    division = a / b;
+
+    if (a ==0 || b ==0)
+    {
+        division =0;
+    }
+    else
+    {
+        division = a / b;
+    }
+
     return division;
+}
+int MultiplicacionDeNumeros(int a, int b)
+{
+    int multiplicacion=0;
+    multiplicacion = a * b;
+    return multiplicacion;
 }

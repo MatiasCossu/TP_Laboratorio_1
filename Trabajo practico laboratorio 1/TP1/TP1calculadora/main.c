@@ -10,6 +10,7 @@ int main()
     int suma;
     int resta;
     float division;
+    int multiplicacion;
 
     printf("BIENVENIDO A CALCULADORA\n");
 
@@ -34,11 +35,21 @@ int main()
                 suma = SumaDeNumeros(operadorA,operadorB);
                 resta = RestaDeNumeros(operadorA,operadorB);
                 division = DivisionDeNumeros(operadorA,operadorB);
+                multiplicacion = MultiplicacionDeNumeros(operadorA,operadorB);
+
                 break;
             case 4:
-                printf("La Suma de  operador A y operador B es: %d\n", suma);
-                printf("La Resta de  operador A y operador B es: %d\n", resta);
-                printf("La Division de  operador A y operador B es: %f\n", division);
+                printf("La suma de  operador A y operador B es: %d\n", suma);
+                printf("La resta de  operador A y operador B es: %d\n", resta);
+                if(division ==0)
+                {
+                    printf("No es posible dividir por 0\n");
+                }
+                else
+                {
+                    printf("La division de  operador A y operador B es: %f\n", division);
+                }
+                printf("La multiplicacion de  operador A y operador B es: %d\n", multiplicacion);
                 break;
         }
     }while(opcion !=5);
