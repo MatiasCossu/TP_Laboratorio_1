@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1599958195 source:c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\main.c
+1599961945 source:c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Funciones.h"
 
-1599957933 source:c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\funciones.c
+1599960504 source:c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\funciones.c
 	"Funciones.h"
 
-1599960504 c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\funciones.h
+1599962073 c:\users\cossu\desktop\carpeta git\tp_laboratorio_1\trabajo practico laboratorio 1\tp1\tp1calculadora\funciones.h
 
