@@ -1,3 +1,6 @@
+/*
+Cossu Matias Taiel 1B
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "Funciones.h"
@@ -15,12 +18,11 @@ int main()
 
     operadorA=0;
     operadorB=0;
-
     printf("BIENVENIDO A CALCULADORA\n");
 
     do
     {
-        printf("\nEl operador A vale: %f \nEl operador B vale: %f\n",operadorA,operadorB);
+        printf("\nEl operador A vale: %f \nEl operador B vale: %f \n",operadorA,operadorB);
         printf("1.Ingreso del operador A.\n2.Ingreso del operador B.\n3.Calcular todas las operaciones\n4.Resultados\n5.Salir\n");
         scanf("%d",&opcion);
         switch(opcion)
