@@ -34,7 +34,7 @@ float MultiplicacionDeNumeros(float, float);
 
 float FactorialNumero(float);
 
-/** \brief Se saca el factorial del dato pedido.
+/** \brief Se saca el factorial del dato pedido, usando un contador que si es menor al dato ingresado se sume y despues  la variable local multiplica a el dato ingresado - el contador
 
  * \param float es el dato ingresado
  * \return se devuelve el resultado del factorial.
